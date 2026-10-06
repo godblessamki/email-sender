@@ -3,3 +3,24 @@
 
 # Ignore Gradle build output directory
 build
+**/build/
+
+# IDE configurations
+.vscode/
+.idea/
+*.iml
+
+# Compiled class files / Eclipse / VS Code output
+bin/
+**/bin/
+*.class
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Test reports and runtime logs
+test_report.html
+pid-list.txt
+natt-logs/*.txt
+!natt-logs/natt-log-2024-*.txt
